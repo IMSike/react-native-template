@@ -1,8 +1,4 @@
 name: "React Native Android Build APK"
-author: "realabbas"
-branding:
-      icon: "archive"
-      color: "blue"
 on:
   push:
     branches:
