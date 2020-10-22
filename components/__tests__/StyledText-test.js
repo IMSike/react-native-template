@@ -8,3 +8,8 @@ it(`renders correctly`, () => {
 
   expect(tree).toMatchSnapshot();
 });
+
+
+afterAll(async done => {
+	done();
+});

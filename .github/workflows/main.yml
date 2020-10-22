@@ -1,5 +1,3 @@
-env:
-  CI: true
 name: "React Native Android Build APK"
 on:
   push:
