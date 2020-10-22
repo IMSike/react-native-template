@@ -1,3 +1,5 @@
+env:
+  CI: true
 name: "React Native Android Build APK"
 on:
   push:
@@ -17,7 +19,7 @@ jobs:
       # For testing
       - name: Run tests
         run: |
-          CI=true npm test
+          npm test
   # # Second Job
   # build-android:
   #   needs: install-and-test
