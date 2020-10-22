@@ -14,12 +14,12 @@ jobs:
           echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf
           sudo sysctl -p
           npm install
-      env:
-        CI: true
       # For testing
       - name: Run tests
         run: |
           npm test
+      env:
+        CI: true
   # # Second Job
   # build-android:
   #   needs: install-and-test
