@@ -9,11 +9,7 @@
     "test": "jest --watchAll"
   },
   "jest": {
-    // "verbose": true,
-    "preset": "jest-expo",
-    "transform": {
-      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js"
-    }
+    "preset": "jest-expo"
   },
   "dependencies": {
     "@expo/vector-icons": "^10.0.0",
