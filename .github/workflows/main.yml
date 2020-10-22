@@ -17,9 +17,7 @@ jobs:
       # For testing
       - name: Run tests
         run: |
-          npm test
-      env:
-        CI: true
+          CI=true npm test
   # # Second Job
   # build-android:
   #   needs: install-and-test
