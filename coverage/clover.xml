@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1603387521773" clover="3.2.0">
+  <project timestamp="1603387521773" name="All files">
+    <metrics statements="15" coveredstatements="11" conditionals="2" coveredconditionals="1" methods="5" coveredmethods="4" elements="22" coveredelements="16" complexity="0" loc="15" ncloc="15" packages="3" files="4" classes="4"/>
+    <package name="components">
+      <metrics statements="12" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="4" coveredmethods="3"/>
+      <file name="StyledText.tsx" path="/home/aurelien/repo/react-native-template/components/StyledText.tsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+      </file>
+      <file name="Themed.tsx" path="/home/aurelien/repo/react-native-template/components/Themed.tsx">
+        <metrics statements="11" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="constants">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="Colors.ts" path="/home/aurelien/repo/react-native-template/constants/Colors.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="hooks">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="useColorScheme.ts" path="/home/aurelien/repo/react-native-template/hooks/useColorScheme.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
